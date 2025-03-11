@@ -1,0 +1,76 @@
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--tamano-xxxl-general);
+}
+
+h2 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-marron-medio);
+    font-size: var(--tamano-texto-xxxl);
+    font-weight: 700;
+}
+
+.form-container {
+    padding: var(--tamano-m-general);
+    max-width: 60%;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--color-gris);
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: var(--color-naranja-claro);
+}
+
+textarea {
+    color: var(--color-naranja-claro);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container button {
+    max-width: calc(var(--tamano-l-general) * 7);
+    height: var(--tamano-xxl-general);
+}
+
+.form-button-contact{
+    background-color: var(--color-naranja);
+    color: var(--color-blanco)
+}
+
+.form-button-contact:hover {
+    background-color: var(--color-naranja-claro);
+}
+
+.moda-contact-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--tamano-xl-general);
+}
+
+.modal-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-button-home {
+    background-color: var(--color-marron-medio);
+    color: var(--color-blanco);
+    font-family: var(--fuente-textos);
+    padding: var(--tamano-m-general);
+}
+
+
+.modal-button-home:hover {
+    background-color: var(--color-naranja-claro);
+}

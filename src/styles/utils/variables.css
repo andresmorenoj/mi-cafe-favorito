@@ -1,0 +1,42 @@
+:root {
+    /* Fuentes */
+    --fuente-firma: "Just Me Again Down Here", cursive, sans-serif;
+    --fuente-titulos: "Lato", sans-serif, Arial, Helvetica;
+    --fuente-textos: "Inter", sans-serif, Arial, Helvetica;
+  
+    /* Colores */
+    --color-marron-oscuro: #3c1518;
+    --color-marron-medio: #69140e;
+    --color-naranja: #a44200;
+    --color-naranja-claro: #D58936;
+    --color-amarillo-claro: #f2f3ae;
+    --color-gris: #222222;
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+  
+   /* Tamaños de texto (en rem) */
+   --tamano-texto-xs: 0.875rem; /* 14px */
+   --tamano-texto-s: 1rem; /* 16px */
+   --tamano-texto-m: 1.125rem; /* 18px */
+   --tamano-texto-l: 1.5rem; /* 24px */
+   --tamano-texto-xl: 1.75rem; /* 28px */
+   --tamano-texto-xxl: 2rem; /* 32px */
+   --tamano-texto-xxxl: 2.5rem; /* 40px */
+ 
+   /* Tamaños generales (en rem) */
+   --tamano-0: 0; /* 16px */
+   --tamano-xs-general: 0.25rem; /* 4px */
+   --tamano-s-general: 0.5rem; /* 8px */
+   --tamano-m-general: 1rem; /* 16px */
+   --tamano-l-general: 1.5rem; /* 24px */
+   --tamano-xl-general: 2rem; /* 32px */
+   --tamano-xxl-general: 3rem; /* 48px */
+   --tamano-xxxl-general: 3.875rem; /* 62px */
+ 
+   /* Bordes (en rem) */
+   --borde-radio-extra-pequeno: 0.25rem; /* 4px */
+   --borde-radio-pequeno: 0.5rem; /* 8px */
+   --borde-radio-normal: 0.625rem; /* 10px */
+   --borde-ancho-normal: 0.0625rem; /* 1px */
+
+  }

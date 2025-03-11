@@ -1,0 +1,52 @@
+/* Normalizador CSS básico */
+
+/* Reset de márgenes y paddings */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset de estilos de lista */
+  ul, ol, li {
+    list-style: none;
+  }
+  
+  /* Reset de estilos de enlace */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reset de estilos de imagen */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Reset de estilos de formulario */
+  input, textarea, button, select {
+    font: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  /* Box-sizing border-box */
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Tipografía base */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Evitar la selección de texto en algunos elementos */
+  button, [role="button"] {
+    user-select: none;
+  }

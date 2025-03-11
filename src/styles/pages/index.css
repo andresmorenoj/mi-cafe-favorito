@@ -1,0 +1,103 @@
+main {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: calc(var(--tamano-s-general) * 10);
+    width: 100%;
+    margin-top: var(--tamano-xxl-general);
+    padding: 0 var(--tamano-xl-general) 0 var(--tamano-xxl-general);
+}
+
+.main-content-container {
+    width: 100%;
+    max-width: calc(var(--tamano-xxxl-general) * 10);
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--tamano-s-general) * 6);;
+}
+
+.main-content-container h2 {
+    font-size: var(--tamano-texto-l);
+    font-weight: 600;
+    font-family: var(--fuente-titulos);
+    color: var(--color-marron-medio);
+}
+
+.main-content-container p {
+    font-size: var(--tamano-texto-m);
+    font-weight: 400;
+    font-family: var(--fuente-textos);
+    color: var(--color-negro);
+}
+
+.main-image-container {
+    width: 100%;
+    max-width: calc(var(--tamano-xxxl-general) * 9);
+}
+
+.main-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--tamano-xl-general);
+}
+
+.coffee-type-container {
+    width: 100%;
+    padding: calc(var( --tamano-l-general) * 4) calc(var(--tamano-xl-general) + var( --tamano-s-general));
+}
+
+.coffee-type-container h2 {
+    font-size: calc(var(--tamano-texto-xxl) + var(--tamano-xs-general));
+    font-weight: 600;
+    font-family: var(--fuente-titulos);
+    color: var(--color-marron-medio);
+    margin-bottom: var(--tamano-xxxl-general);
+}
+
+.coffee-type-container ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.coffee-type-container li {
+    max-width: calc(var(--tamano-xxxl-general) * 5)
+}
+
+.coffee-type-container figure {
+    width: 100%;
+    height: calc(var(--tamano-xxl-general) * 5);
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-type-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--tamano-s-general);
+}
+
+
+.coffee-type-container h3 {
+    font-size: var(--tamano-texto-l);
+    font-family: var(--fuente-titulos);
+    color: var(--color-naranja);
+    margin-top: var(--tamano-l-general);
+    margin-bottom: var(--tamano-m-general);
+}
+
+.coffee-type-container p {
+    font-size: var(--tamano-texto-s);
+    font-family: var(--fuente-textos);
+    color: var(--color-negro);
+}
