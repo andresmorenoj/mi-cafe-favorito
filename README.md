@@ -19,7 +19,6 @@
   - [Uso de Bootstrap](#uso-de-bootstrap)
   - [Metodología Ágil](#metodología-ágil)
   - [Extras y Diferenciación](#extras-y-diferenciación)
-  - [Evidencias](#evidencias)
   - [Conclusión](#conclusión)
 
 ## Introducción
@@ -149,14 +148,6 @@ Se utilizó **Kanban** como metodología ágil. El equipo planificó y organizó
 - Las funcionalidades de la página son **demostrativas**, ya que no se implementó JavaScript para funciones dinámicas avanzadas.
 - Se diseñó una **experiencia visual atractiva y optimizada**, aplicando buenas prácticas de diseño web.
 - Aunque se usó Bootstrap, **la página no es completamente responsiva**.
-
-## Evidencias
-
-A continuación, se presentan capturas y fragmentos de código relevantes para ilustrar el desarrollo de la página web:
-
-- **Pantallazo del diseño en Figma**
-- **Pantallazo del tablero Kanban**
-- **Imágenes de la página web en funcionamiento**
 
 ## Conclusión
 
